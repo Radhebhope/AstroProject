@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+}
+
+#home {
+  text-align: center;
+}
+form {
+  width: 50%; /* adjust the width of the form */
+  margin: 0 auto; /* center the form horizontally */
+}
+
+form input,
+form textarea {
+  width: 100%; /* make the inputs and textarea fill the full width of the form */
+  padding: 12px; /* add some padding to the inputs and textarea */
+  margin-bottom: 20px; /* add some margin between the form elements */
+  border-radius: 4px; /* give the inputs and textarea rounded corners */
+  border: 1px solid #ccc; /* add a border to the inputs and textarea */
+}
+
+form input[type="submit"] {
+  background-color: #4caf50; /* change the background color of the submit button */
+  color: white; /* change the text color of the submit button */
+  padding: 12px 20px; /* adjust the padding of the submit button */
+  border: none; /* remove the border from the submit button */
+  border-radius: 4px; /* give the submit button rounded corners */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the submit button */
+}
+#services {
+  text-align: center; /* center the text in the section */
+  padding: 40px; /* add some padding to the section */
+  background-color: #f2f2f2; /* change the background color of the section */
+}
+
+#services h2 {
+  font-size: 36px; /* increase the font size of the section heading */
+  margin-bottom: 20px; /* add some margin between the heading and the list */
+  color: #333; /* change the color of the heading text */
+}
+
+#services ul {
+  list-style: none; /* remove the bullet points from the list */
+  margin: 0; /* remove the margin from the list */
+  padding: 0; /* remove the padding from the list */
+}
+
+#services ul li {
+  font-size: 24px; /* increase the font size of the list items */
+  margin-bottom: 10px; /* add some margin between the list items */
+  color: #333; /* change the color of the list item text */
+}
+#about {
+  text-align: center;
+  padding: 40px; /* add some padding to the section */
+  background-color: #f9f9f9; /* change the background color of the section */
+}
+
+#about h2 {
+  font-size: 36px; /* increase the font size of the section heading */
+  margin-bottom: 20px; /* add some margin between the heading and the text */
+  color: #333; /* change the color of the heading text */
+}
+
+#about p {
+  font-size: 18px; /* increase the font size of the text */
+  line-height: 1.5; /* increase the line height of the text */
+  color: #333; /* change the color of the text */
+}
+
+#contact h2 {
+  text-align: center;
+}
