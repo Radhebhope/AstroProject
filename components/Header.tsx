@@ -82,7 +82,7 @@ const Header = () => {
                   }`}
                 />
                 <div
-                  className={`toggle__dot absolute inset-y-0 mt-2 left-0${
+                  className={`toggle__dot absolute text-amber-300 inset-y-0 mt-2 left-0${
                     currentTheme === "dark" ? " transform translate-x-full" : ""
                   }`}
                 >
@@ -98,7 +98,7 @@ const Header = () => {
                     ) : (
                       <BsFillMoonFill
                         className="text-2xl cursor-pointer 
-                hover:text-amber-500"
+                        hover:text-amber-500"
                         onClick={() => setTheme("dark")}
                       />
                     ))}
